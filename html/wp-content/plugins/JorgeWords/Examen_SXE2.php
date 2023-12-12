@@ -13,7 +13,6 @@ Author URI: http://JorgeGonzalez/
 */
 
 /*
-//Cambiar palabras malsonantes por otras más suaves en el contenido
 function renym_wordpress_typo_fix( $text ) {
     global $palabrasBaneadas, $SolucionPalabrasBaneadas;
     return str_replace($palabrasBaneadas, $SolucionPalabrasBaneadas, $text);
